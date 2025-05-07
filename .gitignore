@@ -1,0 +1,53 @@
+# Python-specific files and directories
+__pycache__/            # Ignore compiled Python bytecode directories
+*.pyc                   # Ignore individual compiled Python files
+*.pyo                   # Ignore optimized Python bytecode files
+*.pyd                   # Ignore Python C extension files
+.Python                 # Ignore Python environment marker file
+
+# Virtual environments
+venv/                   # Ignore virtual environment directory (common name: venv)
+env/                    # Ignore another common virtual environment directory name
+.venv/                  # Ignore virtual environment with dot prefix
+.env/                   # Ignore another dot-prefixed virtual environment
+
+# IDE and editor-specific files
+.vscode/                # Ignore Visual Studio Code settings and workspace files
+.idea/                  # Ignore JetBrains IDE (PyCharm) project files
+*.sublime-project       # Ignore Sublime Text project files
+*.sublime-workspace     # Ignore Sublime Text workspace files
+
+# Windows-specific files
+Thumbs.db               # Ignore Windows thumbnail cache files
+ehthumbs.db             # Ignore Windows media thumbnail cache files
+Desktop.ini             # Ignore Windows folder customization files
+$RECYCLE.BIN/           # Ignore Windows Recycle Bin directory
+
+# Testing and coverage files
+.coverage               # Ignore coverage.py report files
+coverage.xml            # Ignore XML coverage reports
+*.cover                 # Ignore coverage annotation files
+.pytest_cache/          # Ignore pytest cache directory
+
+# Package and build artifacts
+dist/                   # Ignore distribution directory for Python packages
+build/                  # Ignore build directory for Python packages
+*.egg-info/             # Ignore Python egg metadata directories
+*.egg                   # Ignore Python egg files
+
+# Logs and temporary files
+*.log                   # Ignore log files
+*.tmp                   # Ignore temporary files
+temp/                   # Ignore temporary directories
+*.bak                   # Ignore backup files
+*.swp                   # Ignore Vim swap files
+
+# Environment and configuration files
+.env                    # Ignore environment variable files
+*.env.local             # Ignore local environment variable files
+*.env.development       # Ignore development environment variable files
+*.env.production        # Ignore production environment variable files
+
+# Miscellaneous
+*.cache                 # Ignore cache files
+*.~                     # Ignore temporary files created by some editors
